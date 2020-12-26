@@ -45,7 +45,7 @@ final class PlayerNetwork{
 	private $handler;
 
 	/** @var int */
-	private $graphic_wait_duration = 200;
+	private $graphic_wait_duration = 250;
 
 	public function __construct(NetworkSession $session, PlayerNetworkHandler $handler){
 		$this->session = $session;
